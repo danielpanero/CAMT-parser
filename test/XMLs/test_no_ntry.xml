@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04">
+  <BkToCstmrDbtCdtNtfctn>
+    <GrpHdr>
+      <MsgId>M/1644751985/CAMT</MsgId>
+      <CreDtTm>2022-02-13T12:33:05+01:00</CreDtTm>
+    </GrpHdr>
+    <Ntfctn>
+      <Id>M/1644751985/CAMT</Id>
+      <CreDtTm>2022-02-13T12:33:05+01:00</CreDtTm>
+      <FrToDt>
+        <FrDtTm>2021-06-16T00:00:00</FrDtTm>
+        <ToDtTm>2021-06-22T23:59:59</ToDtTm>
+      </FrToDt>
+      <Acct>
+        <Id>
+          <IBAN>CH1234567890123456789</IBAN>
+        </Id>
+      </Acct>
+    </Ntfctn>
+  </BkToCstmrDbtCdtNtfctn>
+</Document>

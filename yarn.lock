@@ -922,6 +922,11 @@
     "@typescript-eslint/types" "5.31.0"
     eslint-visitor-keys "^3.3.0"
 
+"@xmldom/xmldom@^0.7.4":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.5.tgz#09fa51e356d07d0be200642b0e4f91d8e6dd408d"
+  integrity sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==
+
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.6.tgz#41b80f2c871d19686216b82309231cfd3cb3d291"
@@ -4000,6 +4005,13 @@ ws@^7.4.6:
   version "7.5.9"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
+
+x2js@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/x2js/-/x2js-3.4.3.tgz#3f57537302ff269ad7043078188bb07bc8088af9"
+  integrity sha512-+65+WHCaQ9E0Gb2FDz/tYRSRBGGvFsSMiWDGn8KbgJOLkJhZBMCU1lxuRMLyTcx/54IopT0rDQWCUz2f7FTsyQ==
+  dependencies:
+    "@xmldom/xmldom" "^0.7.4"
 
 xml-name-validator@^3.0.0:
   version "3.0.0"

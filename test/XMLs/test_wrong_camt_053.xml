@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.04"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.053.001.04 camt.053.001.04.xsd">
+    <BkToCstmrStmt>
+        <GrpHdr>
+            <MsgId>14396ABHC/103558/032388</MsgId>
+            <CreDtTm>2021-07-02T10:35:58</CreDtTm>
+            <MsgPgntn>
+                <PgNb>1</PgNb>
+                <LastPgInd>true</LastPgInd>
+            </MsgPgntn>
+            <AddtlInf>SPS/1.7/TEST</AddtlInf>
+        </GrpHdr>
+        <Stmt>
+            <Id>14396ABHC/103558/032388</Id>
+            <ElctrncSeqNb>183</ElctrncSeqNb>
+            <CreDtTm>2021-07-02T10:35:58</CreDtTm>
+            <FrToDt>
+                <FrDtTm>2021-07-02T00:00:00</FrDtTm>
+                <ToDtTm>2021-07-02T23:59:00</ToDtTm>
+            </FrToDt>
+            <Acct>
+                <Id>
+                    <IBAN>CH1104835174350750000</IBAN>
+                </Id>
+                <Ownr>
+                    <Nm>Fatturazione Sementina</Nm>
+                </Ownr>
+            </Acct>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>OPBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="CHF">500000.00</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <Dt>2021-07-02</Dt>
+                </Dt>
+            </Bal>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>CLBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="CHF">500495.50</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <Dt>2021-07-02</Dt>
+                </Dt>
+            </Bal>
+            <Ntry>
+                <NtryRef>CH8130000001350750000</NtryRef>
+                <Amt Ccy="CHF">498.49</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <RvslInd>false</RvslInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <Dt>2021-07-02</Dt>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2021-07-02</Dt>
+                </ValDt>
+                <AcctSvcrRef>0268223758030GHC</AcctSvcrRef>
+                <BkTxCd>
+                    <Domn>
+                        <Cd>PMNT</Cd>
+                        <Fmly>
+                            <Cd>RCDT</Cd>
+                            <SubFmlyCd>VCOM</SubFmlyCd>
+                        </Fmly>
+                    </Domn>
+                </BkTxCd>
+                <Chrgs>
+                    <TtlChrgsAndTaxAmt Ccy="CHF">1.75</TtlChrgsAndTaxAmt>
+                    <Rcrd>
+                        <Amt Ccy="CHF">1.75</Amt>
+                        <CdtDbtInd>DBIT</CdtDbtInd>
+                        <ChrgInclInd>false</ChrgInclInd>
+                        <Tp>
+                            <Prtry>
+                                <Id>2</Id>
+                            </Prtry>
+                        </Tp>
+                    </Rcrd>
+                </Chrgs>
+                <NtryDtls>
+                    <TxDtls>
+                        <Refs>
+                            <AcctSvcrRef>2682237500000006</AcctSvcrRef>
+                        </Refs>
+                        <Amt Ccy="CHF">498.49</Amt>
+                        <CdtDbtInd>CRDT</CdtDbtInd>
+                    </TxDtls>
+                </NtryDtls>
+                <AddtlNtryInf>INPAYMENT SLIP/QR PAYMENT PART</AddtlNtryInf>
+            </Ntry>
+            <Ntry>
+                <Amt Ccy="CHF">2.95</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <Dt>2021-07-02</Dt>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2021-07-02</Dt>
+                </ValDt>
+                <AcctSvcrRef>0268223758030HKB</AcctSvcrRef>
+                <BkTxCd>
+                    <Domn>
+                        <Cd>PMNT</Cd>
+                        <Fmly>
+                            <Cd>RCDT</Cd>
+                            <SubFmlyCd>CHRG</SubFmlyCd>
+                        </Fmly>
+                    </Domn>
+                </BkTxCd>
+                <NtryDtls>
+                    <Btch>
+                        <NbOfTxs>1</NbOfTxs>
+                    </Btch>
+                    <TxDtls>
+                        <Refs>
+                            <AcctSvcrRef>026822375802683100000009</AcctSvcrRef>
+                        </Refs>
+                        <Amt Ccy="CHF">2.95</Amt>
+                        <CdtDbtInd>DBIT</CdtDbtInd>
+                    </TxDtls>
+                </NtryDtls>
+                <AddtlNtryInf>PRICE FOR INPAYMENT AT THE COUNTER ISR</AddtlNtryInf>
+            </Ntry>
+            <Ntry>
+                <Amt Ccy="CHF">0.04</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <Dt>2021-07-02</Dt>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2021-07-02</Dt>
+                </ValDt>
+                <AcctSvcrRef>0268223758030JKL</AcctSvcrRef>
+                <BkTxCd>
+                    <Domn>
+                        <Cd>PMNT</Cd>
+                        <Fmly>
+                            <Cd>RCDT</Cd>
+                            <SubFmlyCd>CHRG</SubFmlyCd>
+                        </Fmly>
+                    </Domn>
+                </BkTxCd>
+                <NtryDtls>
+                    <Btch>
+                        <NbOfTxs>1</NbOfTxs>
+                    </Btch>
+                    <TxDtls>
+                        <Refs>
+                            <AcctSvcrRef>026822375802683100000011</AcctSvcrRef>
+                        </Refs>
+                        <Amt Ccy="CHF">0.04</Amt>
+                        <CdtDbtInd>DBIT</CdtDbtInd>
+                    </TxDtls>
+                </NtryDtls>
+                <AddtlNtryInf>PRICE FOR RE-PROCESSING PAYMENT SLIPS W/REF. NO. (ESR+)</AddtlNtryInf>
+            </Ntry>
+        </Stmt>
+    </BkToCstmrStmt>
+</Document>

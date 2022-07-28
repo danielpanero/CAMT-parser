@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document
+	xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04 camt.054.001.04.xsd">
+	<BkToCstmrDbtCdtNtfctn>
+		<GrpHdr>
+			<MsgId>20210105375204456189580</MsgId>
+			<CreDtTm>2021-01-05T23:32:19</CreDtTm>
+			<MsgPgntn>
+				<PgNb>1</PgNb>
+				<LastPgInd>true</LastPgInd>
+			</MsgPgntn>
+			<AddtlInf>SPS/1.7/PROD</AddtlInf>
+		</GrpHdr>
+		<Ntfctn>
+			<Id>20210105375204456189593</Id>
+			<CreDtTm>2021-01-05T23:32:19</CreDtTm>
+			<FrToDt>
+				<FrDtTm>2020-12-31T00:00:00</FrDtTm>
+				<ToDtTm>2021-01-05T23:59:59</ToDtTm>
+			</FrToDt>
+			<RptgSrc>
+				<Prtry>OTHR</Prtry>
+			</RptgSrc>
+			<Acct>
+				<Id>
+					<IBAN>CH0709000000650396563</IBAN>
+				</Id>
+				<Ownr>
+					<Nm>Bossalini Tiziano Panetteria 6702 Claro</Nm>
+				</Ownr>
+			</Acct>
+			<Ntry>
+				<NtryRef>010141478</NtryRef>
+				<Amt Ccy="CHF">754.90</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<RvslInd>false</RvslInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2020-12-31</Dt>
+				</BookgDt>
+				<ValDt>
+					<Dt>2021-01-04</Dt>
+				</ValDt>
+				<AcctSvcrRef>366020006IMVJQSU</AcctSvcrRef>
+				<BkTxCd>
+					<Domn>
+						<Cd>PMNT</Cd>
+						<Fmly>
+							<Cd>RCDT</Cd>
+							<SubFmlyCd>VCOM</SubFmlyCd>
+						</Fmly>
+					</Domn>
+				</BkTxCd>
+				<Chrgs>
+					<TtlChrgsAndTaxAmt Ccy="CHF">6.30</TtlChrgsAndTaxAmt>
+					<Rcrd>
+						<Amt Ccy="CHF">6.30</Amt>
+						<CdtDbtInd>DBIT</CdtDbtInd>
+						<ChrgInclInd>false</ChrgInclInd>
+						<Tp>
+							<Prtry>
+								<Id>2</Id>
+							</Prtry>
+						</Tp>
+					</Rcrd>
+				</Chrgs>
+				<NtryDtls>
+					<Btch>
+						<NbOfTxs>8</NbOfTxs>
+					</Btch>
+					<TxDtls>
+						<Refs>
+							<AcctSvcrRef>201220CH06GHN1L6</AcctSvcrRef>
+							<InstrId>345968877-1-1</InstrId>
+							<Prtry>
+								<Tp>01</Tp>
+								<Ref>201220CH06GHN1L6</Ref>
+							</Prtry>
+						</Refs>
+						<Amt Ccy="CHF">3</Amt>
+						<CdtDbtInd>CRDT</CdtDbtInd>
+						<BkTxCd>
+							<Domn>
+								<Cd>PMNT</Cd>
+								<Fmly>
+									<Cd>RCDT</Cd>
+									<SubFmlyCd>AUTT</SubFmlyCd>
+								</Fmly>
+							</Domn>
+						</BkTxCd>
+						<RltdPties>
+							<Dbtr>
+								<Nm>Sartoris-Papa, Claudia</Nm>
+								<PstlAdr>
+									<StrtNm>Via Rivapiana</StrtNm>
+									<BldgNb>15</BldgNb>
+									<PstCd>6707</PstCd>
+									<TwnNm>Iragna</TwnNm>
+									<Ctry>CH</Ctry>
+								</PstlAdr>
+							</Dbtr>
+							<DbtrAcct>
+								<Id>
+									<IBAN>CH7709000000650379783</IBAN>
+								</Id>
+							</DbtrAcct>
+						</RltdPties>
+						<RltdAgts>
+							<DbtrAgt>
+								<FinInstnId>
+									<BICFI>POFICHBEXXX</BICFI>
+									<Nm>POSTFINANCE AG</Nm>
+									<PstlAdr>
+										<AdrLine>MINGERSTRASSE 20</AdrLine>
+										<AdrLine>3030 BERN</AdrLine>
+									</PstlAdr>
+								</FinInstnId>
+							</DbtrAgt>
+						</RltdAgts>
+						<RmtInf>
+							<Strd>
+								<CdtrRefInf>
+									<Tp>
+										<CdOrPrtry>
+											<Prtry>ISR Reference</Prtry>
+										</CdOrPrtry>
+									</Tp>
+									<Ref>000000000000202128000015089</Ref>
+								</CdtrRefInf>
+								<AddtlRmtInf>?REJECT?0</AddtlRmtInf>
+							</Strd>
+						</RmtInf>
+						<RltdDts>
+							<AccptncDtTm>2020-12-31T20:00:00</AccptncDtTm>
+						</RltdDts>
+					</TxDtls>
+					<TxDtls>
+						<Refs>
+							<AcctSvcrRef>201231CH06IF4LDU</AcctSvcrRef>
+							<InstrId>20201230151901000100038</InstrId>
+							<Prtry>
+								<Tp>01</Tp>
+								<Ref>20201230151901000100038</Ref>
+							</Prtry>
+						</Refs>
+						<Amt Ccy="CHF">40</Amt>
+						<CdtDbtInd>CRDT</CdtDbtInd>
+						<BkTxCd>
+							<Domn>
+								<Cd>PMNT</Cd>
+								<Fmly>
+									<Cd>CNTR</Cd>
+									<SubFmlyCd>CDPT</SubFmlyCd>
+								</Fmly>
+							</Domn>
+						</BkTxCd>
+						<Chrgs>
+							<TtlChrgsAndTaxAmt Ccy="CHF">1.60</TtlChrgsAndTaxAmt>
+							<Rcrd>
+								<Amt Ccy="CHF">1.60</Amt>
+								<CdtDbtInd>DBIT</CdtDbtInd>
+								<ChrgInclInd>false</ChrgInclInd>
+								<Tp>
+									<Prtry>
+										<Id>2</Id>
+									</Prtry>
+								</Tp>
+							</Rcrd>
+						</Chrgs>
+						<RltdAgts>
+							<DbtrAgt>
+								<FinInstnId>
+									<BICFI>POFICHBEXXX</BICFI>
+									<Nm>POSTFINANCE AG</Nm>
+									<PstlAdr>
+										<AdrLine>MINGERSTRASSE 20</AdrLine>
+										<AdrLine>3030 BERN</AdrLine>
+									</PstlAdr>
+								</FinInstnId>
+							</DbtrAgt>
+						</RltdAgts>
+						<RmtInf>
+							<Strd>
+								<CdtrRefInf>
+									<Tp>
+										<CdOrPrtry>
+											<Prtry>ISR Reference</Prtry>
+										</CdOrPrtry>
+									</Tp>
+									<Ref>000000000000202106000010060</Ref>
+								</CdtrRefInf>
+								<AddtlRmtInf>?REJECT?0</AddtlRmtInf>
+							</Strd>
+						</RmtInf>
+						<RltdDts>
+							<AccptncDtTm>2020-12-30T20:00:00</AccptncDtTm>
+						</RltdDts>
+					</TxDtls>
+				</NtryDtls>
+				<AddtlNtryInf>ACCREDITO COLLETTIVO PVR ELABORAZIONE DEL 31.12.2020 NUMERO CLIENTE 01-14147-8 PACCHETTO ID: 201231CH00000AG6</AddtlNtryInf>
+			</Ntry>
+			<Ntry>
+				<NtryRef>010141478</NtryRef>
+				<Amt Ccy="CHF">394.50</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<RvslInd>false</RvslInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2021-01-05</Dt>
+				</BookgDt>
+				<ValDt>
+					<Dt>2021-01-06</Dt>
+				</ValDt>
+				<AcctSvcrRef>005120006J6PIZMU</AcctSvcrRef>
+				<BkTxCd>
+					<Domn>
+						<Cd>PMNT</Cd>
+						<Fmly>
+							<Cd>RCDT</Cd>
+							<SubFmlyCd>VCOM</SubFmlyCd>
+						</Fmly>
+					</Domn>
+				</BkTxCd>
+				<Chrgs>
+					<TtlChrgsAndTaxAmt Ccy="CHF">6.40</TtlChrgsAndTaxAmt>
+					<Rcrd>
+						<Amt Ccy="CHF">6.40</Amt>
+						<CdtDbtInd>DBIT</CdtDbtInd>
+						<ChrgInclInd>false</ChrgInclInd>
+						<Tp>
+							<Prtry>
+								<Id>2</Id>
+							</Prtry>
+						</Tp>
+					</Rcrd>
+				</Chrgs>
+				<NtryDtls>
+					<Btch>
+						<NbOfTxs>6</NbOfTxs>
+					</Btch>
+					<TxDtls>
+						<Refs>
+							<MsgId>20210104-000206117</MsgId>
+							<AcctSvcrRef>210104CH06IV23IO</AcctSvcrRef>
+							<InstrId>353111851-1-1</InstrId>
+							<Prtry>
+								<Tp>01</Tp>
+								<Ref>20210104003631000600033</Ref>
+							</Prtry>
+						</Refs>
+						<Amt Ccy="CHF">77.20</Amt>
+						<CdtDbtInd>CRDT</CdtDbtInd>
+						<BkTxCd>
+							<Domn>
+								<Cd>PMNT</Cd>
+								<Fmly>
+									<Cd>RCDT</Cd>
+									<SubFmlyCd>DMCT</SubFmlyCd>
+								</Fmly>
+							</Domn>
+						</BkTxCd>
+						<RltdPties>
+							<Dbtr>
+								<Nm>Dell'Era, Rosalice</Nm>
+								<PstlAdr>
+									<StrtNm>A Torascia</StrtNm>
+									<BldgNb>61</BldgNb>
+									<PstCd>6702</PstCd>
+									<TwnNm>Claro</TwnNm>
+									<Ctry>CH</Ctry>
+								</PstlAdr>
+							</Dbtr>
+							<DbtrAcct>
+								<Id>
+									<IBAN>CH6609000000650186078</IBAN>
+								</Id>
+							</DbtrAcct>
+						</RltdPties>
+						<RltdAgts>
+							<DbtrAgt>
+								<FinInstnId>
+									<BICFI>POFICHBEXXX</BICFI>
+									<Nm>POSTFINANCE AG</Nm>
+									<PstlAdr>
+										<AdrLine>MINGERSTRASSE 20</AdrLine>
+										<AdrLine>3030 BERN</AdrLine>
+									</PstlAdr>
+								</FinInstnId>
+							</DbtrAgt>
+						</RltdAgts>
+						<RmtInf>
+							<Strd>
+								<CdtrRefInf>
+									<Tp>
+										<CdOrPrtry>
+											<Prtry>ISR Reference</Prtry>
+										</CdOrPrtry>
+									</Tp>
+									<Ref>000000000000202128000015089</Ref>
+								</CdtrRefInf>
+								<AddtlRmtInf>?REJECT?0</AddtlRmtInf>
+							</Strd>
+						</RmtInf>
+						<RltdDts>
+							<AccptncDtTm>2021-01-05T20:00:00</AccptncDtTm>
+						</RltdDts>
+					</TxDtls>
+					<TxDtls>
+						<Refs>
+							<AcctSvcrRef>210105CH06IZOIZ2</AcctSvcrRef>
+							<InstrId>20210104151902000100011</InstrId>
+							<Prtry>
+								<Tp>01</Tp>
+								<Ref>20210104151902000100011</Ref>
+							</Prtry>
+						</Refs>
+						<Amt Ccy="CHF">63.80</Amt>
+						<CdtDbtInd>CRDT</CdtDbtInd>
+						<BkTxCd>
+							<Domn>
+								<Cd>PMNT</Cd>
+								<Fmly>
+									<Cd>CNTR</Cd>
+									<SubFmlyCd>CDPT</SubFmlyCd>
+								</Fmly>
+							</Domn>
+						</BkTxCd>
+						<Chrgs>
+							<TtlChrgsAndTaxAmt Ccy="CHF">1.60</TtlChrgsAndTaxAmt>
+							<Rcrd>
+								<Amt Ccy="CHF">1.60</Amt>
+								<CdtDbtInd>DBIT</CdtDbtInd>
+								<ChrgInclInd>false</ChrgInclInd>
+								<Tp>
+									<Prtry>
+										<Id>2</Id>
+									</Prtry>
+								</Tp>
+							</Rcrd>
+						</Chrgs>
+						<RltdAgts>
+							<DbtrAgt>
+								<FinInstnId>
+									<BICFI>POFICHBEXXX</BICFI>
+									<Nm>POSTFINANCE AG</Nm>
+									<PstlAdr>
+										<AdrLine>MINGERSTRASSE 20</AdrLine>
+										<AdrLine>3030 BERN</AdrLine>
+									</PstlAdr>
+								</FinInstnId>
+							</DbtrAgt>
+						</RltdAgts>
+						<RmtInf>
+							<Strd>
+								<CdtrRefInf>
+									<Tp>
+										<CdOrPrtry>
+											<Prtry>ISR Reference</Prtry>
+										</CdOrPrtry>
+									</Tp>
+									<Ref>002020090023330000000063306</Ref>
+								</CdtrRefInf>
+								<AddtlRmtInf>?REJECT?0</AddtlRmtInf>
+							</Strd>
+						</RmtInf>
+						<RltdDts>
+							<AccptncDtTm>2021-01-04T20:00:00</AccptncDtTm>
+						</RltdDts>
+					</TxDtls>
+				</NtryDtls>
+				<AddtlNtryInf>ACCREDITO COLLETTIVO PVR ELABORAZIONE DEL 05.01.2021 NUMERO CLIENTE 01-14147-8 PACCHETTO ID: 210105CH00000354</AddtlNtryInf>
+			</Ntry>
+		</Ntfctn>
+	</BkToCstmrDbtCdtNtfctn>
+</Document>

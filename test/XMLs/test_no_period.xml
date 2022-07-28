@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document
+	xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04 camt.054.001.04.xsd">
+	<BkToCstmrDbtCdtNtfctn>
+		<GrpHdr>
+			<MsgId>20210105375204456189580</MsgId>
+			<CreDtTm>2021-01-05T23:32:19</CreDtTm>
+			<MsgPgntn>
+				<PgNb>1</PgNb>
+				<LastPgInd>true</LastPgInd>
+			</MsgPgntn>
+			<AddtlInf>SPS/1.7/PROD</AddtlInf>
+		</GrpHdr>
+		<Ntfctn>
+			<Id>20210105375204456189593</Id>
+			<CreDtTm>2021-01-05T23:32:19</CreDtTm>
+			<FrToDt>
+			</FrToDt>
+			<RptgSrc>
+				<Prtry>OTHR</Prtry>
+			</RptgSrc>
+			<Acct>
+				<Id>
+					<IBAN>CH0709000000650396563</IBAN>
+				</Id>
+				<Ownr>
+					<Nm>Bossalini Tiziano Panetteria 6702 Claro</Nm>
+				</Ownr>
+			</Acct>
+		</Ntfctn>
+	</BkToCstmrDbtCdtNtfctn>
+</Document>

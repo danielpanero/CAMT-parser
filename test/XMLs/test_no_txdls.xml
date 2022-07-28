@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.04">
+  <BkToCstmrDbtCdtNtfctn>
+    <GrpHdr>
+      <MsgId>M/1644751985/CAMT</MsgId>
+      <CreDtTm>2022-02-13T12:33:05+01:00</CreDtTm>
+    </GrpHdr>
+    <Ntfctn>
+      <Id>M/1644751985/CAMT</Id>
+      <CreDtTm>2022-02-13T12:33:05+01:00</CreDtTm>
+      <FrToDt>
+        <FrDtTm>2021-06-16T00:00:00</FrDtTm>
+        <ToDtTm>2021-06-22T23:59:59</ToDtTm>
+      </FrToDt>
+      <Acct>
+        <Id>
+          <IBAN>CH1234567890123456789</IBAN>
+        </Id>
+      </Acct>
+      <Ntry>
+        <NtryRef>010099999</NtryRef>
+        <Amt Ccy="CHF">920.95</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <RvslInd>false</RvslInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2022-02-12</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2022-02-12</Dt>
+        </ValDt>
+        <AcctSvcrRef>O/47373296</AcctSvcrRef>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly>
+              <Cd>RCDT</Cd>
+              <SubFmlyCd>VCOM</SubFmlyCd>
+            </Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+        </NtryDtls>
+      </Ntry>
+    </Ntfctn>
+  </BkToCstmrDbtCdtNtfctn>
+</Document>

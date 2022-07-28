@@ -12,6 +12,7 @@
     "format:check": "prettier \"./**\" --ignore-unknown --check"
   },
   "dependencies": {
+    "x2js": "^3.4.3"
   },
   "devDependencies": {
     "@jest/globals": "^28.0.0",
