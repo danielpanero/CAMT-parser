@@ -1,6 +1,6 @@
 {
   "name": "@danielpanero/camt-parser",
-  "version": "0.0.12",
+  "version": "0.0.1",
   "repository": "https://github.com/danielpanero/CAMT-parser.git",
   "type": "module",
   "scripts": {
