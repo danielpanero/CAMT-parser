@@ -3,7 +3,7 @@ export default {
   collectCoverage: false,
   resetModules: true,
   restoreMocks: true,
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   transform: {
     '^.+\\.ts?$': 'ts-jest'
   },
@@ -15,6 +15,9 @@ export default {
     'ts-jest': {
       useESM: true,
     },
+  },
+  transform: {
+    '.*\\.(xml|txt)$': 'jest-raw-loader'
   },
   coveragePathIgnorePatterns: ['<rootDir>/dist/', '/node_modules/'],
 }
